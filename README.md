@@ -24,7 +24,8 @@ Antes de comenzar con la instalación, actualice el sistema ejecutando:
 sudo apt update && sudo apt upgrade -y
 ```
 
-> **Nota:** Si desea utilizar un nombre diferente en lugar de `classbooking`, asegúrese de reemplazarlo en cada instancia a lo largo de la guía.
+> [!NOTE]   
+> Si desea utilizar un nombre diferente en lugar de `classbooking`, asegúrese de reemplazarlo en cada instancia a lo largo de la guía.
 
 ---
 
@@ -146,7 +147,8 @@ sudo apt install php8.1 php8.1-mysql php8.1-gd php8.1-ldap -y
 
 ## Descarga de Classbooking
 
-> **Nota:** Puede utilizar herramientas alternativas en lugar de `wget` y `unzip`.
+> [!NOTE]  
+> Puede utilizar herramientas alternativas en lugar de `wget` y `unzip`.
 
 ```bash
 sudo apt install wget unzip -y
@@ -188,7 +190,8 @@ Abra su navegador web y acceda a la dirección IP o URL del servidor. Debería v
 - **Username:** `classbooking_user`
 - **Password:** Contraseña asignada al usuario
 
-> ⚠️ **Importante:** Verifique que la URL autodetectada por el sistema sea correcta.
+> [!WARNING]
+> Verifique que la URL autodetectada por el sistema sea correcta.
 
 ![Configuración de base de datos](img/db_conf.png)
 
